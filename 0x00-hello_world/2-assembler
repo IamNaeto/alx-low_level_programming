@@ -1,0 +1,1 @@
+gcc -S $CFILE -o 2-main.s
