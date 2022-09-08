@@ -1,37 +1,15 @@
 #include <stdio.h>
 
-
-
 /**
+ * main - Entry point
+ * 
+ * Description: A C program that prints with put function
  *
- *  * main - Entry point
- *
- *   *
- *
- *    * Author: Sammykingx
- *
- *     *
- *
- *      * Return: Always 0 (Success)
- *
- *       */
+ * Return: Always 0 (Success)
+ */
 
 int main(void)
-
 {
-
-		char string[70] = "\"Programming is like building a multilingual puzzle\"";
-
-			
-
-			puts(string);
-
-
-
-				/* Tried printing it directly */
-
-
-
-				puts("\"Programming is like building a multilingual puzzle\"");
-
-					return (0);
+	puts("\"Programming is like building a multilingual puzzle");
+	return (0);
+}
