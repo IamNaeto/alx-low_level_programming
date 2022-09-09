@@ -1,9 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - program compilation begins from main
- * Description: Program to print all possible combinations of numbers with no two numbers same in paring
- * author: IamNaeto
+ * main - prints all possible different combinations of two digits
  * Return: Always 0 (Success)
  */
 int main(void)
