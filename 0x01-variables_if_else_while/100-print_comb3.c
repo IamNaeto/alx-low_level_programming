@@ -1,9 +1,10 @@
 #include <stdio.h>
+
 /**
  * main - program compilation begins from main
  * Description: Program to print all possible combinations of numbers with no two numbers same in paring
  * author: IamNaeto
-i * Return: 0 means success
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
