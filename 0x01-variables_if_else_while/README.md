@@ -3,7 +3,11 @@
 
 ## Contents ##
 Variables (int, char)
+
 if statements
+
 if-else statements
+
 else-if statemnts
+
 loops (for, while, do-while)
