@@ -7,7 +7,7 @@
  */
 int main (void)
 {
-	char naetio;
+	char naeto;
 
 	for (naeto = 'a' ; naeto <= 'z' ; naeto++)
 	{
