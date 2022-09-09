@@ -3,12 +3,15 @@
 #include <time.h>
 /**
  * main - Entry point
+ * Author: IamNaeto
+ * Date: 09-08-2022
  * Details: C program to print +ve, zero and -ve results of a random number
- * Return: o (success)
+ * Return: 0 (success)
  */
 int main(void)
 {
 	int n;
+
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 
