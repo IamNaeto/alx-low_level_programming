@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /**
  * main - Entry point
  * author: IamNaeto
@@ -11,7 +12,7 @@ int main(void)
 	for (naeto = 48 ; naeto < 58 ; naeto++)
 	{
 		putchar(naeto);
-		if (naeto ! = 57)
+		if (naeto != 57)
 		{
 			putchar(',');
 			putchar(' ');

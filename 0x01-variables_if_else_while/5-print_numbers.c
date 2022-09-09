@@ -9,9 +9,9 @@ int main(void)
 {
 	int naeto;
 
-	for (naeto = 0; naeto < 10; naeto++)
+	for (naeto = 0 ; naeto < 10 ; naeto++)
 	{
-		print("%d", naeto);
+		printf("%d", naeto);
 	}
 	printf("\n");
 	return (0);

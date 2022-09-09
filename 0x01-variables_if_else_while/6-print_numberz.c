@@ -1,4 +1,4 @@
-##include <stdio.h>
+#include <stdio.h>
 
 /**
  * main - Entry point
@@ -9,7 +9,7 @@ int main(void)
 {
 	int naeto;
 
-	for (naeto = 48; naeto < 58; naeto++)
+	for (naeto = 48 ; naeto < 58 ; naeto++)
 		putchar(naeto);
 	putchar('\n');
 	return (0);

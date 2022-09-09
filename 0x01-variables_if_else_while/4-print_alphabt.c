@@ -7,13 +7,13 @@
  */
 int main (void)
 {
-	char naeto;
+	char naetio;
 
 	for (naeto = 'a' ; naeto <= 'z' ; naeto++)
 	{
-		if (naeto != 'q' && naeto ! = 'e')
+		if (naeto != 'q' && naeto != 'e')
 			putchar(naeto);
 	}
 	putchar('\n');
-	return (0)
+	return (0);
 }
