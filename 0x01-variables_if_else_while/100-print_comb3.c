@@ -3,7 +3,7 @@
  * main - program compilation begins from main
  * Description: Program to print all possible combinations of numbers with no two numbers same in paring
  * author: IamNaeto
- * Return: 0 means success
+i * Return: 0 means success
  */
 int main(void)
 {
@@ -13,7 +13,7 @@ int main(void)
 	{
 		for (b = 49 ; b <= 57 ; b++)
 		{
-			if (a !=b && b > a)
+			if (a != b && b > a)
 			{
 				putchar(a);
 				putchar(b);
