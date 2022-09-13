@@ -9,7 +9,7 @@ int main(void)
 {
 	int i;
 
-	unsigned long in j, k, l, m;
+	unsigned long int j, k, l, m;
 
 	j = 1;
 	k = 2;
