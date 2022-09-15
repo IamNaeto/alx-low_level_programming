@@ -1,12 +1,6 @@
 # This repository contains alx C projects and other low level programming exercices. #
 ## Content ##
-- [](0x00-hello_world project)
-
-    File: 0-preprocessor ___File: 1-compiler ___File: 2-assembler
-
-    File: 3-name ___File: 4-puts.c ___File: 5-printf.c
-
-    File: 6-size.c ___File: 100-intel ___File: 101-quote.c
+- [0x00-hello_world project](https://github.com/IamNaeto/alx-low_level_programming/tree/master/0x00-hello_world) | File: 0-preprocessor | File: 1-compiler | File: 2-assembler | File: 3-name | File: 4-puts.c | File: 5-printf.c | File: 6-size.c | File: 100-intel | File: 101-quote.c
 
 - 0x01-variables_if_else_while
 
