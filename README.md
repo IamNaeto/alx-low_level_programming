@@ -6,4 +6,6 @@
 
 - [0x02-functions_nested_loops](https://github.com/IamNaeto/alx-low_level_programming/tree/master/0x02-functions_nested_loops)
 
+- [0x03-debugging](https://github.com/IamNaeto/alx-low_level_programming/tree/master/0x03-debugging)
+
 And other project directories
