@@ -8,4 +8,4 @@
 
 - [0x03-debugging](https://github.com/IamNaeto/alx-low_level_programming/tree/master/0x03-debugging)
 
-And other project directories
+- And other project directories still in progress
