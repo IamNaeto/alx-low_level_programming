@@ -8,4 +8,6 @@
 
 - [0x03-debugging](https://github.com/IamNaeto/alx-low_level_programming/tree/master/0x03-debugging)
 
+- [0x04-more_functions_nested_loops](https://github.com/IamNaeto/alx-low_level_programming/tree/master/0x04-more_functions_nested_loops)
+
 - And other project directories still in progress
