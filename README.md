@@ -4,6 +4,6 @@
 
 - [0x01-variables_if_else_while](https://github.com/IamNaeto/alx-low_level_programming/tree/master/0x01-variables_if_else_while)
 
-- 0x02-functions_nested_loops
+- [0x02-functions_nested_loops](https://github.com/IamNaeto/alx-low_level_programming/tree/master/0x02-functions_nested_loops)
 
 And other project directories
