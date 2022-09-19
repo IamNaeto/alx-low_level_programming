@@ -10,4 +10,6 @@
 
 - [0x04-more_functions_nested_loops](https://github.com/IamNaeto/alx-low_level_programming/tree/master/0x04-more_functions_nested_loops)
 
+- [0x05-pointers_arrays_strings](https://github.com/IamNaeto/alx-low_level_programming/tree/master/0x05-pointers_arrays_strings)
+
 - And other project directories still in progress
