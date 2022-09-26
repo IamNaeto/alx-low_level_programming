@@ -17,4 +17,6 @@
 
 - [0x06-pointers_arrays_strings](https://github.com/IamNaeto/alx-low_level_programming/tree/master/0x06-pointers_arrays_strings)
 
+- [0x07-pointers_arrays_strings](https://github.com/IamNaeto/alx-low_level_programming/tree/master/0x07-pointers_arrays_strings)
+
 - And other project directories still in progress
