@@ -25,4 +25,6 @@
 
 - [0x0A-argc_argv](https://github.com/IamNaeto/alx-low_level_programming/tree/master/0x0A-argc_argv)
 
+- [0x0B-malloc_free](https://github.com/IamNaeto/alx-low_level_programming/tree/master/0x0B-malloc_free)
+
 - And other project directories still in progress
