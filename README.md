@@ -1,4 +1,4 @@
-# This repository contains ALX C - Programming projects as a low level programming exercices. #
+# This repository contains ALX projects on C - Programming as a low level programming language. #
 
 ![image](https://user-images.githubusercontent.com/105589308/191750529-eefdfe11-0e0a-414a-9728-2177add014e1.png)
 
