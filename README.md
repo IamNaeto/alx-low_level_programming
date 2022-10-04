@@ -23,4 +23,6 @@
 
 - [0x09-static_libraries](https://github.com/IamNaeto/alx-low_level_programming/tree/master/0x09-static_libraries)
 
+- [0x0A-argc_argv](https://github.com/IamNaeto/alx-low_level_programming/tree/master/0x0A-argc_argv)
+
 - And other project directories still in progress
