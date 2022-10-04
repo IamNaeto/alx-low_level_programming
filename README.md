@@ -21,4 +21,6 @@
 
 - [0x08-recursion](https://github.com/IamNaeto/alx-low_level_programming/tree/master/0x08-recursion)
 
+- [0x09-static_libraries](https://github.com/IamNaeto/alx-low_level_programming/tree/master/0x09-static_libraries)
+
 - And other project directories still in progress
