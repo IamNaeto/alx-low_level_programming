@@ -11,6 +11,7 @@
 - Compile the code this way: gcc -Wall -pedantic -Werror -Wextra -std=gnu89 0-main.c 0-malloc_checked.c -o a
 
 
+
 2. string_nconcat : A function that concatenates two strings.
 
 - Prototype: char *string_nconcat(char *s1, char *s2, unsigned int n);
@@ -24,6 +25,7 @@
 - If NULL is passed, treat it as an empty string.
 
 - Compile the code this way: gcc -Wall -pedantic -Werror -Wextra -std=gnu89 1-main.c 1-string_nconcat.c -o b
+
 
 
 3. _calloc : A function that allocates memory for an array, using malloc.
@@ -43,6 +45,7 @@
 - Compile the code this way: gcc -Wall -pedantic -Werror -Wextra -std=gnu89 2-main.c 2-calloc.c -o c
 
 
+
 4. array_range : A function that creates an array of integers.
 
 - Prototype: int *array_range(int min, int max);
@@ -56,6 +59,7 @@
 - If malloc fails, return NULL
 
 - Compile the code this way: gcc -Wall -pedantic -Werror -Wextra -std=gnu89 3-main.c 3-array_range.c -o d
+
 
 
 5. _realloc : A function that reallocates a memory block using malloc and free.
@@ -83,6 +87,9 @@
 - FYI: The standard library provides a different function: realloc. Run man realloc to learn more.
 
 - Compile the code this way: gcc -Wall -pedantic -Werror -Wextra -std=gnu89 100-main.c 100-realloc.c -o e
+
+
+
 
 6. We must accept finite disappointment, but never lose infinite hope : A program that multiplies two positive numbers.
 
