@@ -28,7 +28,7 @@ C programming language is a MUST for students and working professionals to becom
 
 - Most of the state-of-the-art software have been implemented using C.
 
-![image](https://user-images.githubusercontent.com/105589308/194294775-b9494bf2-1da1-47ec-8ae9-81f24d0c9bab.png)
+![image](https://user-images.githubusercontent.com/105589308/194294775-b9494bf2-1da1-47ec-8ae9-81f24d0c9bab.gif)
 
 ## About ##
 LEARNING THE C PROGRAMMING LANGUAGE AND ITS APPILICATION
@@ -36,29 +36,29 @@ LEARNING THE C PROGRAMMING LANGUAGE AND ITS APPILICATION
 - This repository comprises of task compilation of my learning in C programming language with ALX program
 
 ## Projects ##
-- [0x00-hello_world project](https://github.com/IamNaeto/alx-low_level_programming/tree/master/0x00-hello_world)
+- [0x00](https://github.com/IamNaeto/alx-low_level_programming/tree/master/0x00-hello_world) | hello_world
 
-- [0x01-variables_if_else_while](https://github.com/IamNaeto/alx-low_level_programming/tree/master/0x01-variables_if_else_while)
+- [0x01](https://github.com/IamNaeto/alx-low_level_programming/tree/master/0x01-variables_if_else_while) | variables_if_else_while
 
-- [0x02-functions_nested_loops](https://github.com/IamNaeto/alx-low_level_programming/tree/master/0x02-functions_nested_loops)
+- [0x02](https://github.com/IamNaeto/alx-low_level_programming/tree/master/0x02-functions_nested_loops) | functions_nested_loops
 
-- [0x03-debugging](https://github.com/IamNaeto/alx-low_level_programming/tree/master/0x03-debugging)
+- [0x03](https://github.com/IamNaeto/alx-low_level_programming/tree/master/0x03-debugging) | debugging
 
-- [0x04-more_functions_nested_loops](https://github.com/IamNaeto/alx-low_level_programming/tree/master/0x04-more_functions_nested_loops)
+- [0x04](https://github.com/IamNaeto/alx-low_level_programming/tree/master/0x04-more_functions_nested_loops) | more_functions_nested_loops
 
-- [0x05-pointers_arrays_strings](https://github.com/IamNaeto/alx-low_level_programming/tree/master/0x05-pointers_arrays_strings)
+- [0x05](https://github.com/IamNaeto/alx-low_level_programming/tree/master/0x05-pointers_arrays_strings) | pointers_arrays_strings
 
-- [0x06-pointers_arrays_strings](https://github.com/IamNaeto/alx-low_level_programming/tree/master/0x06-pointers_arrays_strings)
+- [0x06](https://github.com/IamNaeto/alx-low_level_programming/tree/master/0x06-pointers_arrays_strings) | pointers_arrays_strings
 
-- [0x07-pointers_arrays_strings](https://github.com/IamNaeto/alx-low_level_programming/tree/master/0x07-pointers_arrays_strings)
+- [0x07](https://github.com/IamNaeto/alx-low_level_programming/tree/master/0x07-pointers_arrays_strings) | pointers_arrays_strings
 
-- [0x08-recursion](https://github.com/IamNaeto/alx-low_level_programming/tree/master/0x08-recursion)
+- [0x08](https://github.com/IamNaeto/alx-low_level_programming/tree/master/0x08-recursion) | recursion
 
-- [0x09-static_libraries](https://github.com/IamNaeto/alx-low_level_programming/tree/master/0x09-static_libraries)
+- [0x09](https://github.com/IamNaeto/alx-low_level_programming/tree/master/0x09-static_libraries) | static_libraries
 
-- [0x0A-argc_argv](https://github.com/IamNaeto/alx-low_level_programming/tree/master/0x0A-argc_argv)
+- [0x0A](https://github.com/IamNaeto/alx-low_level_programming/tree/master/0x0A-argc_argv) | argc_argv
 
-- [0x0B-malloc_free](https://github.com/IamNaeto/alx-low_level_programming/tree/master/0x0B-malloc_free)
+- [0x0B](https://github.com/IamNaeto/alx-low_level_programming/tree/master/0x0B-malloc_free) | malloc_free
 
 - And other project directories still in progress
 
