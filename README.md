@@ -35,7 +35,7 @@ LEARNING THE C PROGRAMMING LANGUAGE AND ITS APPILICATION
 
 - This repository comprises of task compilation of my learning in C programming language with ALX program
 
-## Contents ##
+## Projects ##
 - [0x00-hello_world project](https://github.com/IamNaeto/alx-low_level_programming/tree/master/0x00-hello_world)
 
 - [0x01-variables_if_else_while](https://github.com/IamNaeto/alx-low_level_programming/tree/master/0x01-variables_if_else_while)
@@ -63,4 +63,4 @@ LEARNING THE C PROGRAMMING LANGUAGE AND ITS APPILICATION
 - And other project directories still in progress
 
 ## Author: ##
-Charles Obimnaeto Egesionu
+### Charles Obimnaeto Egesionu ###
