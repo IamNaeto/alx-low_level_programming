@@ -60,6 +60,8 @@ LEARNING THE C PROGRAMMING LANGUAGE AND ITS APPILICATION
 
 - [0x0B](https://github.com/IamNaeto/alx-low_level_programming/tree/master/0x0B-malloc_free) | malloc_free
 
+- [0x0C](https://github.com/IamNaeto/alx-low_level_programming/tree/master/0x0C-more_malloc_free) | more_malloc_free
+
 - And other project directories still in progress
 
 ## Author: ##
