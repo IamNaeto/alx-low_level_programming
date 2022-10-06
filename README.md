@@ -28,7 +28,7 @@ C programming language is a MUST for students and working professionals to becom
 
 - Most of the state-of-the-art software have been implemented using C.
 
-![video](https://user-images.githubusercontent.com/105589308/194297849-65a19b63-192c-47fc-99a8-0876a48806d9.gif)
+![image](https://user-images.githubusercontent.com/105589308/194299559-6c0a7c84-bb4c-45d0-818f-c3c1a82aa21c.png)
 
 ## About ##
 LEARNING THE C PROGRAMMING LANGUAGE AND ITS APPILICATION
