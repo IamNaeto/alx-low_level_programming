@@ -65,7 +65,7 @@ LEARNING THE C PROGRAMMING LANGUAGE AND ITS APPILICATION
 - And other project directories still in progress
 
 ## Author: ##
-### Charles Obimnaeto Egesionu ###
+## Charles Obimnaeto Egesionu ##
 
 ## Connect with me: ##
 
