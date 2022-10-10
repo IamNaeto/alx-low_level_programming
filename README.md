@@ -1,30 +1,68 @@
-# This repository contains ALX projects on C - Programming as a low level programming language. #
+![image](https://user-images.githubusercontent.com/105589308/194294270-87239719-6279-4c5a-8c81-f5a6b533fc26.png)
 
-![image](https://user-images.githubusercontent.com/105589308/191750529-eefdfe11-0e0a-414a-9728-2177add014e1.png)
+C programming is a general-purpose, procedural, imperative computer programming language developed in 1972 by Dennis M. Ritchie at the Bell Telephone Laboratories to develop the UNIX operating system. C is the most widely used computer language. It keeps fluctuating at number one scale of popularity along with Java programming language, which is also equally popular and most widely used among modern software programmers.
 
-## Contents ##
-- [0x00-hello_world project](https://github.com/IamNaeto/alx-low_level_programming/tree/master/0x00-hello_world)
+## Why to Learn C Programming? ##
+C programming language is a MUST for students and working professionals to become a great Software Engineer specially when they are working in Software Development Domain. I will list down some of the key advantages of learning C Programming:
 
-- [0x01-variables_if_else_while](https://github.com/IamNaeto/alx-low_level_programming/tree/master/0x01-variables_if_else_while)
+- Easy to learn
 
-- [0x02-functions_nested_loops](https://github.com/IamNaeto/alx-low_level_programming/tree/master/0x02-functions_nested_loops)
+- Structured language
 
-- [0x03-debugging](https://github.com/IamNaeto/alx-low_level_programming/tree/master/0x03-debugging)
+- It produces efficient programs
 
-- [0x04-more_functions_nested_loops](https://github.com/IamNaeto/alx-low_level_programming/tree/master/0x04-more_functions_nested_loops)
+- It can handle low-level activities
 
-- [0x05-pointers_arrays_strings](https://github.com/IamNaeto/alx-low_level_programming/tree/master/0x05-pointers_arrays_strings)
+- It can be compiled on a variety of computer platforms
 
-- [0x06-pointers_arrays_strings](https://github.com/IamNaeto/alx-low_level_programming/tree/master/0x06-pointers_arrays_strings)
+## Facts about C ##
+- C was invented to write an operating system called UNIX.
 
-- [0x07-pointers_arrays_strings](https://github.com/IamNaeto/alx-low_level_programming/tree/master/0x07-pointers_arrays_strings)
+- C is a successor of B language which was introduced around the early 1970s.
 
-- [0x08-recursion](https://github.com/IamNaeto/alx-low_level_programming/tree/master/0x08-recursion)
+- The language was formalized in 1988 by the American National Standard Institute (ANSI).
 
-- [0x09-static_libraries](https://github.com/IamNaeto/alx-low_level_programming/tree/master/0x09-static_libraries)
+- The UNIX OS was totally written in C.
 
-- [0x0A-argc_argv](https://github.com/IamNaeto/alx-low_level_programming/tree/master/0x0A-argc_argv)
+- Today C is the most widely used and popular System Programming Language.
 
-- [0x0B-malloc_free](https://github.com/IamNaeto/alx-low_level_programming/tree/master/0x0B-malloc_free)
+- Most of the state-of-the-art software have been implemented using C.
+
+![animated-image](https://i.postimg.cc/rprHShJ1/C-compilation-process.gif)
+
+## About ##
+LEARNING THE C PROGRAMMING LANGUAGE AND ITS APPILICATION
+
+- This repository comprises of task compilation of my learning in C programming language with ALX program
+
+## Projects ##
+- [0x00](https://github.com/IamNaeto/alx-low_level_programming/tree/master/0x00-hello_world) | hello_world
+
+- [0x01](https://github.com/IamNaeto/alx-low_level_programming/tree/master/0x01-variables_if_else_while) | variables_if_else_while
+
+- [0x02](https://github.com/IamNaeto/alx-low_level_programming/tree/master/0x02-functions_nested_loops) | functions_nested_loops
+
+- [0x03](https://github.com/IamNaeto/alx-low_level_programming/tree/master/0x03-debugging) | debugging
+
+- [0x04](https://github.com/IamNaeto/alx-low_level_programming/tree/master/0x04-more_functions_nested_loops) | more_functions_nested_loops
+
+- [0x05](https://github.com/IamNaeto/alx-low_level_programming/tree/master/0x05-pointers_arrays_strings) | pointers_arrays_strings
+
+- [0x06](https://github.com/IamNaeto/alx-low_level_programming/tree/master/0x06-pointers_arrays_strings) | pointers_arrays_strings
+
+- [0x07](https://github.com/IamNaeto/alx-low_level_programming/tree/master/0x07-pointers_arrays_strings) | pointers_arrays_strings
+
+- [0x08](https://github.com/IamNaeto/alx-low_level_programming/tree/master/0x08-recursion) | recursion
+
+- [0x09](https://github.com/IamNaeto/alx-low_level_programming/tree/master/0x09-static_libraries) | static_libraries
+
+- [0x0A](https://github.com/IamNaeto/alx-low_level_programming/tree/master/0x0A-argc_argv) | argc_argv
+
+- [0x0B](https://github.com/IamNaeto/alx-low_level_programming/tree/master/0x0B-malloc_free) | malloc_free
+
+- [0x0C](https://github.com/IamNaeto/alx-low_level_programming/tree/master/0x0C-more_malloc_free) | more_malloc_free
 
 - And other project directories still in progress
+
+## Author: ##
+### Charles Obimnaeto Egesionu ###
