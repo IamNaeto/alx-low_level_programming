@@ -1,18 +1,21 @@
-## 0x13-more_singly_linked_lists Project
+# 0x13-more_singly_linked_lists Project
 
-Learning Objectives
-How to use linked lists
-Start to look for the right source of information without too much help
-Tasks
-Print list
+## Learning Objectives
+- How to use linked lists
+- Start to look for the right source of information without too much help
+
+## Tasks
+## Print list
 Write a function that prints all the elements of a listint_t list.
 
-Prototype: size_t print_listint(const listint_t *h);
-Return: the number of nodes
-Format: see example
-You are allowed to use printf
-Solution: 0-print_listint.c
+- Prototype: ```size_t print_listint(const listint_t *h);```
+- Return: the number of nodes
+- Format: see example
+- You are allowed to use ```printf```
 
+**Solution:** 0-print_listint.c
+
+``````````
 $ amonkeyprogrammer@ubuntu:~/0x13. More singly linked lists$ cat 0-main.c 
 #include <stdlib.h>
 #include <string.h>
@@ -52,12 +55,16 @@ $ amonkeyprogrammer@ubuntu:~/0x13. More singly linked lists$ ./a
 8
 -> 2 elements
 $ amonkeyprogrammer@ubuntu:~/0x13. More singly linked lists$
-List length
-Write a function that returns the number of elements in a linked listint_t list.
+``````````
 
-Prototype: size_t listint_len(const listint_t *h);
-Solution: 1-listint_len.c
+## List length
+Write a function that returns the number of elements in a linked ```listint_t``` list.
 
+- Prototype: ```size_t listint_len(const listint_t *h);```
+
+**Solution:** 1-listint_len.c
+
+``````````
 $ amonkeyprogrammer@ubuntu:~/0x13. More singly linked lists$ cat 1-main.c 
 #include <stdlib.h>
 #include <string.h>
@@ -95,13 +102,17 @@ $ amonkeyprogrammer@ubuntu:~/0x13. More singly linked lists$ gcc -Wall -pedantic
 $ amonkeyprogrammer@ubuntu:~/0x13. More singly linked lists$ ./b 
 -> 2 elements
 $ amonkeyprogrammer@ubuntu:~/0x13. More singly linked lists$
-Add node
-Write a function that adds a new node at the beginning of a listint_t list.
+``````````
 
-Prototype: listint_t *add_nodeint(listint_t **head, const int n);
-Return: the address of the new element, or NULL if it failed
-Solution: 2-add_nodeint.c
+## Add node
+Write a function that adds a new node at the beginning of a ```listint_t``` list.
 
+- Prototype: ```listint_t *add_nodeint(listint_t **head, const int n);```
+- Return: the address of the new element, or ```NULL``` if it failed
+
+**Solution:** 2-add_nodeint.c
+
+``````````
 $ amonkeyprogrammer@ubuntu:~/0x13. More singly linked lists$ cat 2-main.c 
 #include <stdlib.h>
 #include <string.h>
@@ -140,13 +151,17 @@ $ amonkeyprogrammer@ubuntu:~/0x13. More singly linked lists$ ./c
 1
 0
 $ amonkeyprogrammer@ubuntu:~/0x13. More singly linked lists$
-Add node at the end
-Write a function that adds a new node at the end of a listint_t list.
+``````````
 
-Prototype: listint_t *add_nodeint_end(listint_t **head, const int n);
-Return: the address of the new element, or NULL if it failed
-Solution: 3-add_nodeint_end.c
+## Add node at the end
+Write a function that adds a new node at the end of a ```listint_t``` list.
 
+- Prototype: ```listint_t *add_nodeint_end(listint_t **head, const int n);```
+- Return: the address of the new element, or ```NULL``` if it failed
+
+**Solution:** 3-add_nodeint_end.c
+
+``````````
 $ amonkeyprogrammer@ubuntu:~/0x13. More singly linked lists$ cat 3-main.c 
 #include <stdlib.h>
 #include <string.h>
@@ -185,12 +200,16 @@ $ amonkeyprogrammer@ubuntu:~/0x13. More singly linked lists$ ./d
 402
 1024
 $ amonkeyprogrammer@ubuntu:~/0x13. More singly linked lists$
-Free list
-Write a function that frees a listint_t list.
+``````````
 
-Prototype: void free_listint(listint_t *head);
-Solution: 4-free_listint.c
+## Free list
+Write a function that frees a ```listint_t``` list.
 
+- Prototype: ```void free_listint(listint_t *head);```
+
+**Solution:** 4-free_listint.c
+
+``````````
 $ amonkeyprogrammer@ubuntu:~/0x13. More singly linked lists$ cat 4-main.c 
 #include <stdlib.h>
 #include <string.h>
@@ -245,11 +264,15 @@ $ amonkeyprogrammer@ubuntu:~/0x13. More singly linked lists$ valgrind ./e
 ==3643== For counts of detected and suppressed errors, rerun with: -v
 ==3643== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
 $ amonkeyprogrammer@ubuntu:~/0x13. More singly linked lists$
-Free
-Write a function that frees a listint_t list.
+``````````
 
-Prototype: void free_listint2(listint_t **head);
-The function sets the head to NULL
+## Free
+Write a function that frees a ```listint_t``` list.
+
+- Prototype: ```void free_listint2(listint_t **head);```
+- The function sets the ```head``` to ```NULL```
+
+``````````
 $ amonkeyprogrammer@ubuntu:~/0x13. More singly linked lists$ cat 5-main.c 
 #include <stdlib.h>
 #include <string.h>
@@ -305,13 +328,16 @@ $ amonkeyprogrammer@ubuntu:~/0x13. More singly linked lists$ valgrind ./f
 ==3843== For counts of detected and suppressed errors, rerun with: -v
 ==3843== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
 $ amonkeyprogrammer@ubuntu:~/0x13. More singly linked lists$
-Pop
-Write a function that deletes the head node of a listint_t linked list, and returns the head node’s data (n).
+``````````
 
-Prototype: int pop_listint(listint_t **head);
-if the linked list is empty return 0
-Solution: 6-pop_listint.c
+## Pop
+Write a function that deletes the head node of a ```listint_t``` linked list, and returns the head node’s data (n).
 
+- Prototype: ```int pop_listint(listint_t **head);```
+- if the linked list is empty return ```0```
+ **Solution:** 6-pop_listint.c
+
+``````````
 $ amonkeyprogrammer@ubuntu:~/0x13. More singly linked lists$ cat 6-main.c 
 #include <stdlib.h>
 #include <string.h>
@@ -389,14 +415,18 @@ $ amonkeyprogrammer@ubuntu:~/0x13. More singly linked lists$ valgrind ./g
 ==4369== For counts of detected and suppressed errors, rerun with: -v
 ==4369== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
 $ amonkeyprogrammer@ubuntu:~/0x13. More singly linked lists$
-Get node at index
+``````````
+
+## Get node at index
 Write a function that returns the nth node of a listint_t linked list.
 
-Prototype: listint_t *get_nodeint_at_index(listint_t *head, unsigned int index);
-where index is the index of the node, starting at 0
-if the node does not exist, return NULL
-Solution: 7-get_nodeint.c
+- Prototype: ```listint_t *get_nodeint_at_index(listint_t *head, unsigned int index);```
+- where ```index``` is the index of the node, starting at ```0```
+- if the node does not exist, return ```NULL```
 
+**Solution:** 7-get_nodeint.c
+
+``````````
 $ amonkeyprogrammer@ubuntu:~/0x13. More singly linked lists$ cat 7-main.c 
 #include <stdlib.h>
 #include <string.h>
@@ -449,13 +479,17 @@ $ amonkeyprogrammer@ubuntu:~/0x13. More singly linked lists$ ./h
 402
 1024
 $ amonkeyprogrammer@ubuntu:~/0x13. More singly linked lists$
-Sum list
-Write a function that returns the sum of all the data (n) of a listint_t linked list.
+``````````
 
-Prototype: int sum_listint(listint_t *head);
-if the list is empty, return 0
-Solution: 8-sum_listint.c
+## Sum list
+Write a function that returns the sum of all the data (n) of a ```listint_t``` linked list.
 
+- Prototype: ```int sum_listint(listint_t *head);```
+- if the list is empty, return ```0```
+
+**Solution:** 8-sum_listint.c
+
+``````````
 $ amonkeyprogrammer@ubuntu:~/0x13. More singly linked lists$ cat 8-main.c 
 #include <stdlib.h>
 #include <string.h>
@@ -490,15 +524,19 @@ $ amonkeyprogrammer@ubuntu:~/c0x13. More singly linked lists$ gcc -Wall -pedanti
 $ amonkeyprogrammer@ubuntu:~/0x13. More singly linked lists$ ./i 
 sum = 1534
 $ amonkeyprogrammer@ubuntu:~/0x13. More singly linked lists$
-Insert
+``````````
+
+## Insert
 Write a function that inserts a new node at a given position.
 
-Prototype: listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n);
-where idx is the index of the list where the new node should be added. Index starts at 0
-Returns: the address of the new node, or NULL if it failed
-if it is not possible to add the new node at index idx, do not add the new node and return NULL
-Solution: 9-insert_nodeint.c
+- Prototype: ```listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n);```
+- where ```idx``` is the index of the list where the new node should be added. Index starts at 0
+- Returns: the address of the new node, or ```NULL``` if it failed
+- if it is not possible to add the new node at index ```idx,``` do not add the new node and return NULL
 
+**Solution:** 9-insert_nodeint.c
+
+``````````
 $ amonkeyprogrammer@ubuntu:~/0x13. More singly linked lists$ cat 9-main.c 
 #include <stdlib.h>
 #include <string.h>
@@ -551,14 +589,15 @@ $ amonkeyprogrammer@ubuntu:~/0x13. More singly linked lists$ ./j
 402
 1024
 $ amonkeyprogrammer@ubuntu:~/0x13. More singly linked lists$
-```
+````````````
 
 ## Delete at index
-Write a function that deletes the node at index index of a listint_t linked list.
+Write a function that deletes the node at index index of a ```listint_t``` linked list.
 
-- Prototype: int delete_nodeint_at_index(listint_t **head, unsigned int index);
-- where index is the index of the node that should be deleted. Index starts at 0
-- Returns: 1 if it succeeded, -1 if it failed
+- Prototype: ```int delete_nodeint_at_index(listint_t **head, unsigned int index);```
+- where ```index``` is the index of the node that should be deleted. Index starts at ```0```
+- Returns: ```1``` if it succeeded, ```-1``` if it failed
+
 **Solution:** 10-delete_nodeint.c
 
 ```
@@ -701,19 +740,19 @@ $ amonkeyprogrammer@ubuntu:~/0x13. More singly linked lists$ valgrind ./k
 ==5571== For counts of detected and suppressed errors, rerun with: -v
 ==5571== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
 $ amonkeyprogrammer@ubuntu:~/0x13. More singly linked lists$
-```
+````````````
 ## Reverse list
 Write a function that reverses a listint_t linked list.
 
-- Prototype: listint_t *reverse_listint(listint_t **head);
+- Prototype: ```listint_t *reverse_listint(listint_t **head);```
 - Returns: a pointer to the first node of the reversed list
-- You are not allowed to use more than 1 loop.
-- You are not allowed to use malloc, free or arrays
+- You are not allowed to use more than ```1``` loop.
+- You are not allowed to use ```malloc,``` ```free``` or arrays
 - You can only declare a maximum of two variables in your function
 
 **Solution:** 100-reverse_listint.c
 
-```
+`````````````
 $ amonkeyprogrammer@ubuntu:~/0x13. More singly linked lists$ cat 100-main.c 
 #include <stdlib.h>
 #include <string.h>
@@ -777,5 +816,5 @@ $ amonkeyprogrammer@ubuntu:~/0x13. More singly linked lists$ valgrind ./l
 ==3117== For counts of detected and suppressed errors, rerun with: -v
 ==3117== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
 $ amonkeyprogrammer@ubuntu:~/0x13. More singly linked lists$
-```
+````````````
 
