@@ -28,41 +28,63 @@ C programming language is a MUST for students and working professionals to becom
 
 - Most of the state-of-the-art software have been implemented using C.
 
+# C is FUN 😊
+
+>Learning C right now, been wanting to get on this. It's going to be FUN !!.
+
 ![animated-image](https://i.postimg.cc/rprHShJ1/C-compilation-process.gif)
 
 ## About ##
 LEARNING THE C PROGRAMMING LANGUAGE AND ITS APPILICATION
 
-- This repository comprises of task compilation of my learning in C programming language with ALX program
+- This repository consists of all the C programming projects done with [ALX Africa](https://www.alxafrica.com/) Full stack Software Engineering course in partnership with [Holberton School](https://www.holbertonschool.com/) by [IamNaeto](https://IamNaeto/).
+- All main.c files are prewritten by the school. We build functions that produce a specific output while also taking into consideration edge cases.
 
-## Projects ##
-- [0x00](https://github.com/IamNaeto/alx-low_level_programming/tree/master/0x00-hello_world) | hello_world
+---
 
-- [0x01](https://github.com/IamNaeto/alx-low_level_programming/tree/master/0x01-variables_if_else_while) | variables_if_else_while
+- C is fun but its not that easy, so I have some [notes](./notes.md) that will actually show you the journey and thought process.
 
-- [0x02](https://github.com/IamNaeto/alx-low_level_programming/tree/master/0x02-functions_nested_loops) | functions_nested_loops
+## Resource
 
-- [0x03](https://github.com/IamNaeto/alx-low_level_programming/tree/master/0x03-debugging) | debugging
+- C [Books and PDF's](./references) to check out and use as a reference.
 
-- [0x04](https://github.com/IamNaeto/alx-low_level_programming/tree/master/0x04-more_functions_nested_loops) | more_functions_nested_loops
+---
 
-- [0x05](https://github.com/IamNaeto/alx-low_level_programming/tree/master/0x05-pointers_arrays_strings) | pointers_arrays_strings
+- [0x00](./0x00-hello_world) : Hello, World.
+- [0x01](./0x01-variables_if_else_while) : Variables,if,else,while.
+- [0x02](./0x02-functions_nested_loops) : Functions, nested loops.
+- [0x03](./0x03-debugging) : Debugging.
+- [0x04](./0x04-more_functions_nested_loops) : More Functions and nested loops.
+- [0x05](./0x05-pointers_arrays_strings) : Pointers, arrays and strings.
+- [0x06](./0x06-pointers_arrays_strings) : More pointers, arrays and strings.
+- [0x07](./0x07-pointers_arrays_strings) : Even more pointers, arrays and strings.
+- [0x08](./0x08-recursion) : Recursion.
+- [0x09](./0x09-static_libraries) : Static libraries.
+- [0x0A](./0x0A-argc_argv) : argc, argv[].
+- [0x0B](./0x0B-malloc_free) : Malloc, free.
+- [0x0C](./0x0C-more_malloc_free) : More malloc, free.
+- [0x0D](./0x0D-preprocessor) : Preprocessor.
+- [0x0E](./0x0E-structures_typedef) : Structures, typedef.
+- [0x0F](./0x0F-function_pointers) : Function pointers.
+- [0x10](./0x10-variadic_functions) : Variadic functions.
+- [0x11](https://github.com/IamNaeto/printf) : Write our own printf project.
+- [0x12](./0x12-singly_linked_lists) : Singly linked lists.
+- [0x13](./0x13-more_singly_linked_lists) : More singly linked lists.
+- [0x14](./0x14-bit_manipulation) : Bit manipulation.
+- [0x15](./0x15-file_io) : File I/O.
+- [0x1C](./0x1C-makefiles) : Makefiles.
+- [0x1D](https://github.com/IamNaeto/binary_trees) : Binary trees.
+- [0x1E](./0x1E-search_algorithms) : Search Algorithms.
 
-- [0x06](https://github.com/IamNaeto/alx-low_level_programming/tree/master/0x06-pointers_arrays_strings) | pointers_arrays_strings
+---
 
-- [0x07](https://github.com/IamNaeto/alx-low_level_programming/tree/master/0x07-pointers_arrays_strings) | pointers_arrays_strings
+# More Resources
 
-- [0x08](https://github.com/IamNaeto/alx-low_level_programming/tree/master/0x08-recursion) | recursion
-
-- [0x09](https://github.com/IamNaeto/alx-low_level_programming/tree/master/0x09-static_libraries) | static_libraries
-
-- [0x0A](https://github.com/IamNaeto/alx-low_level_programming/tree/master/0x0A-argc_argv) | argc_argv
-
-- [0x0B](https://github.com/IamNaeto/alx-low_level_programming/tree/master/0x0B-malloc_free) | malloc_free
-
-- [0x0C](https://github.com/IamNaeto/alx-low_level_programming/tree/master/0x0C-more_malloc_free) | more_malloc_free
-
-- And other project directories still in progress
+- [Pointers and Arrays](./PointerArrays) : Code snippets and notes on Pointers and Arrays from Concept Page.
+- [Data Structures](./DataStructures) : Code snippets and notes on data structures.
+- [Dynamic Memory Allocation](./dynamic_memory_alloc) : Code snippets and notes on how dynamic memory allocation works with `malloc` and `free`.
+- [Heap vs Stack](./heap_stack) : Code snippets and notes on what is a heap, a stack and how they work.
+- [Simple Shell Concepts](./simple_shell_concepts) : Code snippets and notes on the concept for the simple shell project.
 
 ## Author: Charles Obimnaeto Egesionu ##
 
