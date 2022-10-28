@@ -54,10 +54,11 @@ LEARNING THE C PROGRAMMING LANGUAGE AND ITS APPILICATION
  - To help you track down that bug, start reading your code aloud.
  - Pretend that a programmer friend is sitting right next to you.
  - Explain what your code is doing and how it works. As you talk through your code, you’ll find the problem. If you don’t, have your imaginary friend ask you questions during your explanation. ```Don’t worry about going mental.``` ```You’re a C programmer.``` ```You’re already mental.``` 😅
-  - As a bonus, talking through your code also helps you identify which portions need to have comments and what the comments should be.
+     - As a bonus, talking through your code also helps you identify which portions need to have comments and what the comments should be.
 
 ---
 
+## Projects
 - [0x00](./0x00-hello_world) : Hello, World.
 - [0x01](./0x01-variables_if_else_while) : Variables,if,else,while.
 - [0x02](./0x02-functions_nested_loops) : Functions, nested loops.
