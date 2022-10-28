@@ -37,7 +37,7 @@ C programming language is a MUST for students and working professionals to becom
 ## About ##
 LEARNING THE C PROGRAMMING LANGUAGE AND ITS APPILICATION
 
-- This repository consists of all the C programming projects done with [ALX Africa](https://www.alxafrica.com/) Full stack Software Engineering course in partnership with [Holberton School](https://www.holbertonschool.com/) by [IamNaeto](https://IamNaeto/).
+- This repository consists of all the C programming projects done with [ALX Africa](https://www.alxafrica.com/) Full stack Software Engineering course in partnership with [Holberton School](https://www.holbertonschool.com/) by [IamNaeto](https://github.com/IamNaeto).
 - All main.c files are prewritten by the school. We build functions that produce a specific output while also taking into consideration edge cases.
 
 ---
