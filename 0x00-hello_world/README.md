@@ -1,20 +1,91 @@
-## 0x00-hello_world Project ##
+# 0x00. C -Hello, World
 
-### Tasks ###
-File 0-preprocessor Write a script that runs a C file through the preprocessor and save the result into another file. The C file name will be saved in the variable $CFILE. The output should be saved in the file c
+## Resources
 
-File 1-compiler Write a script that compiles a C file but does not link. The C file name will be saved in the variable $CFILE. The output file should be named the same as the C file, but with the extension .o instead of .c. Example: if the C file is main.c, the output file should be main.o
+- [C - Books and PDF's](../references) to check out and use as a reference.
+- [Dennis Ritchie](https://en.wikipedia.org/wiki/Dennis_Ritchie) creator of C.
+- "C" Programming Language: Brian Kernighan - [Computerphile](https://www.youtube.com/watch?v=de2Hsvxaf8M).
+- Learning to Program in C by Jonathan Engelsma [Youtube Playlist](https://youtube.com/playlist?list=PLIsXzR_wZY-yQMHOK7D3Dls4VoTGuRovd)
+- [Understanding C program Compilation Process](https://www.youtube.com/watch?v=VDslRumKvRA).
+- [Holberton Betty Guide](https://github.com/holbertonschool/Betty/wiki) C coding style.
+- [Hash-bang under the hood](https://twitter.com/unix_byte/status/1024147947393495040?s=21).
+- [Linus Torvalds on C vs C++](http://harmful.cat-v.org/software/c++/linus).
+- [UPEvent: GCC and Makefiles](https://youtu.be/OnEF1MexJlI) **Important watch this**
 
-File 2-assembler Write a script that generates the assembly code of a C code and save it in an output file. The C file name will be saved in the variable $CFILE. The output file should be named the same as the C file, but with the extension .s instead of .c. Example: if the C file is main.c, the output file should be main.s
+## Tasks
 
-File 3-name Write a script that compiles a C file and creates an executable named cisfun. The C file name will be saved in the variable $CFILE
+<details>
+<summary><a href="./0-preprocessor">0. Preprocessor</a></summary><br>
 
-File 4-puts.c Write a C program that prints exactly "Programming is like building a multilingual puzzle, followed by a new line. Use the function puts. You are not allowed to use printf. Your program should end with the value 0
+<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/R0TYHDp0/image.png' border='0' alt='image'/></a>
+- Here is the *[$CFILE](./main/main.c)* file.
 
-File 5-printf.c Write a C program that prints exactly with proper grammar, but the outcome is a piece of art,, followed by a new line. Use the function printf. You are not allowed to use the function puts. Your program should return 0. Your program should compile without warning when using the -Wall gcc option
+</details>
 
-File 6-size.c Write a C program that prints the size of various types on the computer it is compiled and run on.You should produce the exact same output as in the example. Warnings are allowed. Your program should return 0. You might have to install the package libc6-dev-i386 on your Linux to test the -m32 gcc option
+<details>
+<summary><a href="./1-compiler">1. Compiler</a></summary><br>
 
-File 100-intel Write a script that generates the assembly code (Intel syntax) of a C code and save it in an output file. The C file name will be saved in the variable $CFILE. The output file should be named the same as the C file, but with the extension .s instead of .c. Example: if the C file is main.c, the output file should be main.s
+<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/KYXbNw5r/image.png' border='0' alt='image'/></a>
+- Here is the *[$CFILE](./main/main.c)* file.
 
-File 101-quote.c Write a C program that prints exactly and that piece of art is useful" - Dora Korpar, 2015-10-19, followed by a new line, to the standard error. You are not allowed to use any functions listed in the NAME section of the man (3) printf or man (3) puts. Your program should return 1. Your program should compile without any warnings when using the -Wall gcc option
+</details>
+
+<details>
+<summary><a href="./2-assembler">2. Assembler</a></summary><br>
+
+<a href='https://postimg.cc/kDBC1dZw' target='_blank'><img src='https://i.postimg.cc/nV1LLF18/image.png' border='0' alt='image'/></a>
+- Here is the *[$CFILE](./main/main.c)* file.
+
+</details>
+
+<details>
+<summary><a href="./3-name">3. Name</a></summary><br>
+
+<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/qRyzw2ng/image.png' border='0' alt='image'/></a>
+- Here is the *[$CFILE](./main/main.c)* file.
+
+</details>
+
+
+<details>
+<summary><a href="./4-puts.c">4. Hello, puts</a></summary><br>
+
+<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/bJt257Xy/image.png' border='0' alt='image'/></a>
+- Compile and run this way: `gcc -Wall -Werror -Wextra -pedantic -std=gnu89 4-puts.c -o puts`.
+
+</details>
+
+
+<details>
+<summary><a href="./5-printf.c">5. Hello, printf</a></summary><br>
+
+<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/14xVPJQG/image.png' border='0' alt='image'/></a>
+- Compile this way: `gcc -Wall -Werror -Wextra -pedantic -std=gnu89 5-printf.c -o printf`.
+
+</details>
+
+
+<details>
+<summary><a href="./6-size.c">6. Size is not grandeur, and territory does not make a nation</a></summary><br>
+
+<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/3rqgnFPJ/image.png' border='0' alt='image'/></a>
+- Compile this way: `gcc 6-size.c -m32 -o size32 2> /tmp/32` & `gcc 6-size.c -m64 -o size64 2> /tmp/64`
+- Compare outputs for the `size32` and `size64`.
+
+</details>
+
+<details>
+<summary><a href="./100-intel">7. Intel</a></summary><br>
+
+<a href='https://postimg.cc/PNS1z1D0' target='_blank'><img src='https://i.postimg.cc/BQ0N3gnZ/image.png' border='0' alt='image'/></a>
+- Here is the *[$CFILE](./main/main.c)* file.
+
+</details>
+
+<details>
+<summary><a href="./101-quote.c">8. UNIX is basically a simple operating system, but you have to be a genius to understand the simplicity</a></summary><br>
+
+<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/HkGmdF7c/image.png' border='0' alt='image'/></a>
+- Compile this way: `gcc -Wall -Werror -Wextra -pedantic -std=gnu89 -o quote 101-quote.c`.
+
+</details>
