@@ -386,13 +386,14 @@ ELF Header:
   Entry point address:               0x10d20
 julien@ubuntu:~/0x15. File descriptors and permissions$ 
   ```
-  
-      - Other resources to use:
-	    - [ELF: Behind the process](https://www.cs.swarthmore.edu/~kwebb/cs31/s15/bucs/elf.html)
-			- [Executable and Linkable Format](https://en.wikipedia.org/wiki/Executable_and_Linkable_Format)
-			- [Elf from scratch](https://www.conradk.com/codebase/2017/05/28/elf-from-scratch/)
-			- [Exploring ELF](https://www.suchprogramming.com/exploring-elf/)
-			- [The 101 of ELF files on Linux: Understanding and Analysis](https://linux-audit.com/elf-binaries-on-linux-understanding-and-analysis/#elf-header)
-			- [Elf file structure](https://metabytezero.blogspot.com/2019/10/elf-file-structure.html)
-			- [Linux Foundation Specs: ELF Header](https://refspecs.linuxfoundation.org/elf/gabi4+/ch4.eheader.html)
-			- [Linux man-pages v5 elf](https://man7.org/linux/man-pages/man5/elf.5.html)
+ 
+ 
+- Other resources to use:
+	- [ELF: Behind the process](https://www.cs.swarthmore.edu/~kwebb/cs31/s15/bucs/elf.html)
+	- [Executable and Linkable Format](https://en.wikipedia.org/wiki/Executable_and_Linkable_Format)
+	- [Elf from scratch](https://www.conradk.com/codebase/2017/05/28/elf-from-scratch/)
+	- [Exploring ELF](https://www.suchprogramming.com/exploring-elf/)
+	- [The 101 of ELF files on Linux: Understanding and Analysis](https://linux-audit.com/elf-binaries-on-linux-understanding-and-analysis/#elf-header)
+	- [Elf file structure](https://metabytezero.blogspot.com/2019/10/elf-file-structure.html)
+	- [Linux Foundation Specs: ELF Header](https://refspecs.linuxfoundation.org/elf/gabi4+/ch4.eheader.html)
+	- [Linux man-pages v5 elf](https://man7.org/linux/man-pages/man5/elf.5.html)
