@@ -49,12 +49,12 @@ This project finds solutions to the following:
 		- First compile all `.c` files to get our object files `.o` files.
 			`gcc -c *c`
 		- Then we create our static library from our object files.
-			`ar rc libholberton.a *.o`
+			`ar rc libmain.a *.o`
 		- Then we confirm if our static library was created successfully.
-			`ar -t libholberton.a`
+			`ar -t libmain.a`
 		- We confirm if our object files were linked successfully.
-			`nm libholberton.h`
-	- Compile the main code to test our static library this way: `gcc -std=gnu89 main.c -L. -lholberton -o quote`
+			`nm libmain.h`
+	- Compile the main code to test our static library this way: `gcc -std=gnu89 main.c -L. -lmain -o quote`
 1. [Without libraries what have we? We have no past and no future](./create_static_lib.sh) : Create a script that creates a library called `liball.a` from all the `.c` files that are in the current directory.
 
 
