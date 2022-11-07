@@ -58,7 +58,7 @@ This project finds solutions to the following:
 1. [Without libraries what have we? We have no past and no future](./create_static_lib.sh) : Create a script that creates a library called `liball.a` from all the `.c` files that are in the current directory.
 
 
-### Note: In creating a static library ###
+### Alternatively you can create your static library this way ###
 
   - gcc -c *.c > This converts .c files to .o (object) files
   - ar rcs libmy.a *.o
