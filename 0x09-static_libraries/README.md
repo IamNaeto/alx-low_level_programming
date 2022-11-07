@@ -44,7 +44,7 @@ This project finds solutions to the following:
 		char *_strpbrk(char *s, char *accept);
 		char *_strstr(char *haystack, char *needle);
 		```
-	- File [holberton.h](./main.h) contains all of the above functions created from previous projects.
+	- File [main.h](./main.h) contains all of the above functions created from previous projects.
 	- Steps to create static library.
 		- First compile all `.c` files to get our object files `.o` files.
 			`gcc -c *c`
