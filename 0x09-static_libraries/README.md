@@ -44,21 +44,21 @@ This project finds solutions to the following:
 		char *_strpbrk(char *s, char *accept);
 		char *_strstr(char *haystack, char *needle);
 		```
-	- File [holberton.h](./holberton.h) contains all of the above functions created from previous projects.
+	- File [main.h](./main.h) contains all of the above functions created from previous projects.
 	- Steps to create static library.
 		- First compile all `.c` files to get our object files `.o` files.
 			`gcc -c *c`
 		- Then we create our static library from our object files.
-			`ar rc libholberton.a *.o`
+			`ar rc libmain.a *.o`
 		- Then we confirm if our static library was created successfully.
-			`ar -t libholberton.a`
+			`ar -t libmain.a`
 		- We confirm if our object files were linked successfully.
-			`nm libholberton.h`
-	- Compile the main code to test our static library this way: `gcc -std=gnu89 main.c -L. -lholberton -o quote`
+			`nm libmain.h`
+	- Compile the main code to test our static library this way: `gcc -std=gnu89 main.c -L. -lmain -o quote`
 1. [Without libraries what have we? We have no past and no future](./create_static_lib.sh) : Create a script that creates a library called `liball.a` from all the `.c` files that are in the current directory.
 
 
-### Note: In creating a static library ###
+### Alternatively you can create your static library this way ###
 
   - gcc -c *.c > This converts .c files to .o (object) files
   - ar rcs libmy.a *.o
